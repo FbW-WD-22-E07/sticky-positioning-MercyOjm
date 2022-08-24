@@ -1,33 +1,40 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 main.container {
-    /* giv background width heigh,
+  /* giv background width heigh,
     padding and center it horizontally */
-   
+  width: 800px;
+  height: 200px;
+  padding-left: 50px;
+  margin-left: 30%;
+  margin-top: 15%;
 
-    /* what is this doing? */
-    overflow-y: scroll;
+  /* what is this doing? */
+  overflow-y: scroll;
 }
 .sticky-section {
-    margin-top: 10px;
-    border-bottom: solid;
+  margin-top: 10px;
+  border-bottom: solid;
 }
 
 .sticky {
-    background-color: aqua;
-    height: 50px;
-    /* make it sticky, and you need to define top: */
+  background-color: aqua;
+  height: 50px;
+  /* make it sticky, and you need to define top: */
+  top: 0;
+  position: sticky;
 }
 
 ul {
-    /* how to remove the discs from style? */
-    margin: 10px 0 10px 10px;
+  /* how to remove the discs from style? */
+  margin: 10px 0 10px 10px;
+  list-style-type: none;
 }
